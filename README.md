@@ -4,6 +4,10 @@ The intention of this space is to create an easily accessible compendium of usef
 
 
 
+
+
+
+
 ## Command Line Tools
 
 ### PDF Compression (macOS & Linux)
@@ -14,5 +18,17 @@ Using `ghostscript`, one can compress PDF files through the use of the following
 ```bash
 gs -sDEVICE=pdfwrite -dNOPAUSE -dQUIET -dBATCH -dPDFSETTINGS=/screen -dCompatibilityLevel=1.4 -sOutputFile=output.pdf input.pdf
 ```
+
+
+## Git Tools
+
+### Update branches
+Credit: [John Szakmeister](https://stackoverflow.com/questions/20106712/what-are-the-differences-between-git-remote-prune-git-prune-git-fetch-prune)
+
+Allows one ot update one's local list of remote branches, which I always tend to forget how to do:
+
+```bash
+git remote update origin --prune
+
 
 
