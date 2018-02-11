@@ -10,6 +10,15 @@ The intention of this space is to create an easily accessible compendium of usef
 
 ## Command Line Tools
 
+### Resizing Images
+Credit: [Rinzwind](https://askubuntu.com/questions/271776/how-to-resize-an-image-through-the-terminal)
+
+To quickly resize an image using ```convert```, it's as simple as:
+
+```bash
+convert figure.png -resize 128x128 resizedFigure.png
+``` 
+
 ### PDF Compression (macOS & Linux)
 Credit: [Max Glenister](https://blog.omgmog.net/post/compressing-pdf-from-your-mac-or-linux-terminal-with-ghostscript/)
 
