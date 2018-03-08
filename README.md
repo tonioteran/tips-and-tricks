@@ -10,6 +10,10 @@ The intention of this space is to create an easily accessible compendium of usef
 
 ## Command Line Tools
 
+### Reformatting Images
+
+
+
 ### Resizing Images
 Credit: [Rinzwind](https://askubuntu.com/questions/271776/how-to-resize-an-image-through-the-terminal)
 
@@ -49,4 +53,16 @@ Allows one ot update one's local list of remote branches, which I always tend to
 git remote update origin --prune
 ```
 
+
+## IPython
+
+### Apply changes after edits
+Credit: [Andrew](https://stackoverflow.com/questions/1254370/reimport-a-module-in-python-while-interactive)
+
+I was always very annoyed whenever changes to my files wouldn't be recognized during an ipython session (so much time spent debugging thinking there was an error in my code, when the only issue was that the changes weren't being taken into account). Using the [autoreload](https://ipython.readthedocs.io/en/stable/config/extensions/autoreload.html) extension, one is able to have the modules automatically reloaded before executing user code.
+
+```python
+%load_ext autoreload
+%autoreload 2
+```
 
