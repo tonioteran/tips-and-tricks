@@ -23,6 +23,11 @@ To quickly resize an image using ```convert```, it's as simple as:
 convert figure.png -resize 128x128 resizedFigure.png
 ``` 
 
+### Convert Image Set Into Video
+Credit: [Hammad Mazhar](http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/)
+
+The previous list contains a pretty comprehensive list for accomplishing this by using `ffmpeg`.
+
 ### PDF Compression (macOS & Linux)
 Credit: [Max Glenister](https://blog.omgmog.net/post/compressing-pdf-from-your-mac-or-linux-terminal-with-ghostscript/)
 
