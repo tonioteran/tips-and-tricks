@@ -71,3 +71,14 @@ I was always very annoyed whenever changes to my files wouldn't be recognized du
 %autoreload 2
 ```
 
+
+
+## Gnuplot
+
+### Reading parameters from external file
+Credit: [stackoverflow](https://stackoverflow.com/questions/11211339/gnuplot-store-one-number-from-data-file-into-variable)
+
+TODO: ... Explain and post example.
+
+
+
