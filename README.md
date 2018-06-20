@@ -53,6 +53,10 @@ Credit: [LordNeckbeard](https://superuser.com/questions/556029/how-do-i-convert-
 
 Created a wrapper for using `ffmpeg` to create frames from a video, and then using `convert` to transform them into a GIF. The script is `vid2gif.sh`.
 
+```bash
+./vid2gif.sh TS99_15_T7-BothStatGM_OVHD.ts 480 0.5 0.2 5%
+```
+
 
 ### PDF Compression (macOS & Linux)
 Credit: [Max Glenister](https://blog.omgmog.net/post/compressing-pdf-from-your-mac-or-linux-terminal-with-ghostscript/)
