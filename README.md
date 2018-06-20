@@ -48,6 +48,12 @@ For further optimization, I use `convert` with a varying level of fuzz in the fo
 convert LeftRightUnrectifiedGif.gif -fuzz 5% -layers Optimize result.gif
 ```
 
+### Convert Video Into GIF
+Credit: [LordNeckbeard](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality)
+
+Created a wrapper for using `ffmpeg` to create frames from a video, and then using `convert` to transform them into a GIF. The script is `vid2gif.sh`.
+
+
 ### PDF Compression (macOS & Linux)
 Credit: [Max Glenister](https://blog.omgmog.net/post/compressing-pdf-from-your-mac-or-linux-terminal-with-ghostscript/)
 
