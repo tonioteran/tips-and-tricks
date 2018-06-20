@@ -28,6 +28,26 @@ Credit: [Hammad Mazhar](http://hamelot.io/visualization/using-ffmpeg-to-convert-
 
 The previous list contains a pretty comprehensive list for accomplishing this by using `ffmpeg`.
 
+My favorite usage goes something like this:
+
+```bash
+ffmpeg -framerate 6 -pattern_type glob -i 'LeftRightUnrectified*.bmp' -vb 20M -vcodec mpeg4 out.mp4
+```
+
+### Convert Image Set Into GIF
+
+I've tried multiple tools, such as `ffmpeg`, `convert`, etc, and the way in which I find it the easiest to customize the delay is using `gm`:
+
+```bash
+gm convert -delay 10 -loop 0 OpticsMount_0_Images/LeftRightUnrectified*.bmp out.gif
+```
+
+For further optimization, I use `convert` with a varying level of fuzz in the following way:
+
+```bash
+convert LeftRightUnrectifiedGif.gif -fuzz 5% -layers Optimize result.gif
+```
+
 ### PDF Compression (macOS & Linux)
 Credit: [Max Glenister](https://blog.omgmog.net/post/compressing-pdf-from-your-mac-or-linux-terminal-with-ghostscript/)
 
