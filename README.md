@@ -85,6 +85,17 @@ Using pkg-config to procure information on installed libraries, e.g., finding ou
 pkg-config --modversion opencv
 ```
 
+### Connecting to VPN using Command Line
+Credit: [A-B-B](https://superuser.com/questions/649614/connect-using-anyconnect-from-command-line)
+
+When using Ubuntu 18, there seems to be an error while launching the Cisco Anyconnect application, so I opted to connect to the host using the command line:
+
+```bash
+/opt/cisco/anyconnect/bin/vpn -s connect HOST
+```
+
+One will then get prompted for username, password, and second password if duo authentication is required.
+
 
 ## Git Tools
 
