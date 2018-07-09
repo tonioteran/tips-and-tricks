@@ -9,7 +9,11 @@ The linearized relative dynamics between a chaser satellite and a target object 
 ![equation](http://latex.codecogs.com/gif.latex?\ddot{z}(t)&space;=&space;-n^2&space;\cdot&space;z(t)&space;&plus;&space;\frac{F_z}{m})
 
 
-![equation](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BW%7D%28A%2Cf%29%20%3D%20%28T%2C%5Cbar%7Bf%7D%29)
+![equation](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BW%7D%28A%2Cf%29%20%3D%20%28T%2C%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5Cbar%7Bf%7D%29)
+
+![equation](https://www.codecogs.com/eqnedit.php?latex=\mathcal{W}(A,f)&space;=&space;(T,\bar{f}))
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Balign*%7D%20%5Cmathcal%7BW%7D%28A%2Cf%29%20%26%3D%20%28T%2C%5C%3B%5C%3B%5C%3B%5C%3B%5C%3B%5Cbar%7Bf%7D%29%20%5C%5C%20%5Cmathcal%7BW%7D%28A%2Cf%29%20%26%3D%20%28T%2C%5Cbar%7Bf%7D%29%5C%5C%20%5COmega%20%26%3D%20%5CSigma_3%20%5Cend%7Balign*%7D)
 
 Assumptions:
 * Distance from target to chaser is much much smaller than the orbital radius, i.e.,
