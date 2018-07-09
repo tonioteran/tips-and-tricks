@@ -2,8 +2,14 @@
 
 The linearized relative dynamics between a chaser satellite and a target object in orbit can be described by the following set of equations:
 
-![equation](http://latex.codecogs.com/gif.latex?\begin{align*}&space;\ddot{x}(t)&space;&=&space;2n&space;\cdot&space;\dot{y}(t)&space;&plus;&space;3n^2\cdot&space;x(t)&space;\\&space;\ddot{y}(t)&space;&=&space;-2n\cdot&space;\dot{x}(t)&space;\\&space;\ddot{z}(t)&space;&=&space;-n^2\cdot&space;z(t)&space;\end{align*})
+![equation](http://latex.codecogs.com/gif.latex?\ddot{x}(t)&space;=&space;2n&space;\cdot&space;\dot{y}(t)&space;&plus;&space;3n^2\cdot&space;x(t)&space;&space;&space;&space;&plus;&space;\frac{F_x}{m})
 
+![equation](http://latex.codecogs.com/gif.latex?\ddot{y}(t)&space;=&space;-2n&space;\cdot&space;\dot{x}(t)&space;&space;&space;&plus;&space;\frac{F_y}{m})
+
+![equation](http://latex.codecogs.com/gif.latex?\ddot{z}(t)&space;=&space;-n^2&space;\cdot&space;z(t)&space;&plus;&space;\frac{F_z}{m})
+
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BW%7D%28A%2Cf%29%20%3D%20%28T%2C%5Cbar%7Bf%7D%29)
 
 Assumptions:
 * Distance from target to chaser is much much smaller than the orbital radius, i.e.,
@@ -15,4 +21,7 @@ Assumptions:
 
 ## Discrete System Equations
 
-This system 
+The discrete, analytical solution to the system can be expressed as a traditional LTI system of the form
+
+![equation]()
+
