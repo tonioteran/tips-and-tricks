@@ -1,4 +1,4 @@
-moving everything to [my webpage](tonioteran.github.com)
+moving everything to [my webpage](tonioteran.github.io)
 
 
 # Compilation of Tips and Tricks
