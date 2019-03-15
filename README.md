@@ -1,6 +1,11 @@
+moving everything to [my webpage](https://tonioteran.github.io)
+
+
 # Compilation of Tips and Tricks
 
 The intention of this space is to create an easily accessible compendium of useful tips and tricks that I've found throughout the ages while surfing the wonders of the WWW. 
+
+
 
 
 
