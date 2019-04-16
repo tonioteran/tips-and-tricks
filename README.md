@@ -26,6 +26,13 @@ sed -i '/pattern/d' ./nameOfFile
 
 ### Reformatting Images
 
+### Renaming Files 
+
+In order to pad filenames with zeros, for example:
+```bash
+rename -v -n -e 's/-(\d{2}\.)/-0$1/' matched-*.png
+```
+
 
 
 ### Resizing Images
